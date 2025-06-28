@@ -32,7 +32,7 @@ const galleryImages = [
     alt: "Piercings delicados nos dedos com joias de cristal",
   },
   {
-    src: "/images/gallery/piercing-2.jpg",
+    src: "/images/gallery/piercing-2.jpeg",
     alt: "Piercings faciais com joias douradas",
   },
   {
@@ -48,7 +48,7 @@ const galleryImages = [
     alt: "Composição elaborada de piercings na orelha",
   },
   {
-    src: "/images/gallery/piercing-6.jpg",
+    src: "/images/gallery/piercing-6.jpeg",
     alt: "Piercing no nariz com joia em formato de flor",
   },
   {
@@ -156,8 +156,8 @@ export default function LarissaFrancaPiercer() {
               </div>
               <div className="text-center">
                 <div className="text-sm sm:text-base lg:text-lg opacity-90">A partir de</div>
-                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">R$25</div>
-                <div className="text-sm sm:text-base lg:text-lg opacity-90">Design de Sobrancelhas e Henna</div>
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">R$15</div>
+                <div className="text-sm sm:text-base lg:text-lg opacity-90">Design de Sobrancelhas </div>
               </div>
             </motion.div>
 

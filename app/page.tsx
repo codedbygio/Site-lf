@@ -13,6 +13,7 @@ import {
   Calendar,
   Gift,
   CalendarCheck,
+  Brush,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -28,8 +29,8 @@ const tuaAgendaLink = "https://client.tuaagenda.com/c/LarissaPiercing"
 
 const galleryImages = [
   {
-    src: "/images/gallery/piercing-1.jpg",
-    alt: "Piercings delicados nos dedos com joias de cristal",
+    src: "/images/gallery/piercing-1.jpeg",
+    alt: "Design de sobrancelhas estrategico",
   },
   {
     src: "/images/gallery/piercing-2.jpeg",
@@ -444,7 +445,7 @@ export default function LarissaFrancaPiercer() {
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               {
                 title: "Aplicação de Piercing",
@@ -460,6 +461,11 @@ export default function LarissaFrancaPiercer() {
                 title: "Cuidados Pós-Procedimento",
                 description: "Acompanhamento completo para cicatrização ideal",
                 icon: <Heart className="w-8 h-8" />,
+              },
+              {
+                title: "Design de Sobrancelhas",
+                description: "Perfeito para dar um destaque ainda maior na sua beleza.",
+                icon: <Brush className="w-8 h-8" />,
               },
             ].map((service, index) => (
               <motion.div
